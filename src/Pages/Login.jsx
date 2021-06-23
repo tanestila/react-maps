@@ -41,7 +41,9 @@ export const Login = ({ isAuthenticated, onChangeAuth }) => {
             <Checkbox>Remember me</Checkbox>
           </Form.Item>
 
-          <NavLink to="/forgot">Forgot password</NavLink>
+          <NavLink className="login-form-forgot" to="/forgot">
+            Forgot password
+          </NavLink>
         </Form.Item>
 
         <Form.Item>
@@ -52,8 +54,7 @@ export const Login = ({ isAuthenticated, onChangeAuth }) => {
           >
             Log in
           </Button>
-          Or
-          <NavLink to="/register">register now!</NavLink>
+          Or <NavLink to="/register">register now!</NavLink>
         </Form.Item>
       </Form>
     </div>

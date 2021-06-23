@@ -2,22 +2,19 @@ import {
   Button,
   Typography,
   Layout,
-  Menu,
   Row,
   Col,
   Space,
   Card,
   Form,
   Input,
-  InputNumber,
 } from "antd";
-import { NavLink } from "react-router-dom";
-import { DesktopOutlined, PieChartOutlined } from "@ant-design/icons";
+import { DesktopOutlined } from "@ant-design/icons";
 import ScrollToTop from "../Components/ScrollToTop";
 import { HeaderMain } from "../Components/MainComponents/Header";
 import { FooterMain } from "../Components/MainComponents/Footer";
 const { Title, Paragraph } = Typography;
-const { Header, Content, Footer } = Layout;
+const { Content } = Layout;
 
 const layout = {
   labelCol: { span: 8 },
